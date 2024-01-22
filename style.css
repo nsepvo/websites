@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------------------------------*/
+
+body{
+    margin-bottom: 140px;
+    background: hsl(0, 2%, 12%);
+}
+
+/*-----------------------------------------*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------*/
+
+.header{
+    color: hsl(293, 69%, 57%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+    background-color: hsl(0, 3%, 14%);
+}
+
+/*-----------------------------------------*/
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(58, 56, 56);
+    padding: 0%;
+    margin: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: silver;
+}
+
+.navbar li{
+    float: left;
+}
+
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+
+#about{
+    padding: 20px;
+}
+
+#about h3{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+#about p{
+    color: white;
+    font-size: 12px;
+}
+
+/*-----------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 3%, 14%);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+footer div{
+    display: block;
+    padding: 10px;
+}
+
+footer div h3{
+    color: hsl(293, 69%, 57%);
+    font-size: 12px;
+    padding-bottom: 2%;
+}
+
+footer div h4{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+footer div li{
+    color: hsl(0, 1%, 40%);
+    font-weight: 300;
+    font-size: 10px;
+    list-style: none;
+    padding: 1px;
+}
+
+footer div ul li:hover{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
